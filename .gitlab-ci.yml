@@ -1,0 +1,9 @@
+build_pdf:
+  image:
+    name: rstropek/pandoc-latex
+    entrypoint: ["/bin/sh", "-c"]
+  script:
+    - pandoc --output=README.pdf -f markdown -t pdf --metadata-file=metadata.yaml --template=https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/v2.0.0/eisvogel.tex README.md
+  artifacts:
+    paths:
+      - "*.pdf"
