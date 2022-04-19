@@ -1,0 +1,14 @@
+title: "Distributed Systems"
+author: [Hugo Protsch, Justin Hoffmann]
+date: \today
+keyword: [Verteilte Systeme, VS]
+
+papersize: a4
+links-as-notes: true
+toc: true
+toc-depth: 2
+toc-own-page: true
+lang: en
+titlepage: true
+numbersections: true
+

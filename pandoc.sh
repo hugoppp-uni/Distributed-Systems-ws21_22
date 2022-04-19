@@ -7,6 +7,7 @@ docker run --rm \
     -f markdown \
     --template https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/v2.0.0/eisvogel.tex \
     -t latex \
+    --metadata-file=metadata.yaml \
     -o README.pdf \
     README.md
 
