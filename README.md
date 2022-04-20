@@ -20,6 +20,8 @@ practical exam part.
 
 ## Requirements Overview
 
+![Use case diagram](diagrams/ucd.png)
+
 | ID  | Requirement    | Explanation                                                                                                        |
 |-----|----------------|--------------------------------------------------------------------------------------------------------------------|
 | UC0 | move_arm       | change the position of the arm in three axis: left/right, back/forth, up/down. Absolute values should be provided. |
