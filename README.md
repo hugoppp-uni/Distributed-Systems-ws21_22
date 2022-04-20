@@ -21,13 +21,11 @@ architecture template, <https://arc42.org>.
 
 ## Stakeholders
 
-+-------------+---------------------------+---------------------------+
-| Role/Name   | Contact                   | Expectations              |
-+=============+===========================+===========================+
-| *\<Role-1>* | *\<Contact-1>*            | *\<Expectation-1>*        |
-+-------------+---------------------------+---------------------------+
-| *\<Role-2>* | *\<Contact-2>*            | *\<Expectation-2>*        |
-+-------------+---------------------------+---------------------------+
+| Name            | Role                   | Contact                        | Expectations |
+|-----------------|------------------------|--------------------------------|--------------|
+| Martin Becke    | Customer               | martin.becke@haw-hamburg.de    |              |
+| Hugo Protsch    | Developer / Maintainer | hugo.protsch@haw-hamburg.de    |              |
+| Justin Hoffmann | Developer / Maintainer | justin.hoffmann@haw-hamburg.de |              |
 
 # Architecture Constraints
 
