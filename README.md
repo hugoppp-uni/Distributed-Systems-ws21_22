@@ -20,6 +20,12 @@ practical exam part.
 
 ## Requirements Overview
 
+| ID  | Requirement    | Explanation                                                                                                        |
+|-----|----------------|--------------------------------------------------------------------------------------------------------------------|
+| UC0 | move_arm       | change the position of the arm in three axis: left/right, back/forth, up/down. Absolute values should be provided. |
+| UC1 | toggle_gripper | toggle the gripper state between open and closed                                                                   |
+
+
 ## Quality Goals
 
 ## Stakeholders
