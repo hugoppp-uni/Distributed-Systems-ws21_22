@@ -32,10 +32,10 @@ practical exam part.
 
 # Architecture Constraints
 
-The control-system shall be:
+The control-system shall:
 
-- integrable with any robotic arm that implements the ICaDSRoboticArm Interface
-- scalable for at least 16 robotic arms 
+- be integrable with any robotic arm that implements the ICaDSRoboticArm Interface
+- be scalable for at least 16 robotic arms 
 - contain a custom IDL and source generator
 - contain a custom nameserver
 
