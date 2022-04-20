@@ -1,4 +1,4 @@
-# 
+#  
 
 **About arc42**
 
@@ -15,19 +15,29 @@ architecture template, <https://arc42.org>.
 
 # Introduction and Goals
 
+This document describes the distributed control system for at least 16 robotic arms for the distributed systems 
+practical exam part.
+
 ## Requirements Overview
 
 ## Quality Goals
 
 ## Stakeholders
 
-| Name            | Role                   | Contact                        | Expectations |
-|-----------------|------------------------|--------------------------------|--------------|
-| Martin Becke    | Customer               | martin.becke@haw-hamburg.de    |              |
-| Hugo Protsch    | Developer / Maintainer | hugo.protsch@haw-hamburg.de    |              |
-| Justin Hoffmann | Developer / Maintainer | justin.hoffmann@haw-hamburg.de |              |
+| Name            | Role                   | Contact                        | Expectations                                          |
+|-----------------|------------------------|--------------------------------|-------------------------------------------------------|
+| Martin Becke    | Customer               | martin.becke@haw-hamburg.de    | Working control-system in accordance to documentation |
+| Hugo Protsch    | Developer / Maintainer | hugo.protsch@haw-hamburg.de    |                                                       |
+| Justin Hoffmann | Developer / Maintainer | justin.hoffmann@haw-hamburg.de |                                                       |
 
 # Architecture Constraints
+
+The control-system shall be:
+
+- integrable with any robotic arm that implements the ICaDSRoboticArm Interface
+- scalable for at least 16 robotic arms 
+- contain a custom IDL and source generator
+- contain a custom nameserver
 
 # System Scope and Context
 
@@ -127,10 +137,10 @@ Important Interfaces
 
 ## \<Runtime Scenario 1>
 
--   *\<insert runtime diagram or textual description of the scenario>*
+- *\<insert runtime diagram or textual description of the scenario>*
 
--   *\<insert description of the notable aspects of the interactions
-    between the building block instances depicted in this diagram.\>*
+- *\<insert description of the notable aspects of the interactions
+  between the building block instances depicted in this diagram.\>*
 
 ## \<Runtime Scenario 2>
 
@@ -201,7 +211,7 @@ Mapping of Building Blocks to Infrastructure
 # Glossary
 
 +-----------------------+-----------------------------------------------+
-| Term                  | Definition                                    |
+| Term | Definition |
 +=======================+===============================================+
 | *\<Term-1>*           | *\<definition-1>*                             |
 +-----------------------+-----------------------------------------------+
