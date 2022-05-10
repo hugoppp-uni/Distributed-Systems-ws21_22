@@ -69,7 +69,7 @@ The control-system shall:
 
 ## Whitebox Overall System
 
-***\<Overview Diagram>***
+![Component Diagram](diagrams/cmp.png)
 
 Motivation
 
