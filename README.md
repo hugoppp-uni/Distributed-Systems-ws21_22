@@ -69,7 +69,8 @@ The control-system shall:
 
 ## Whitebox Overall System
 
-![Component Diagram](diagrams/cmp.png)
+![Component Diagram](diagrams/cmp_level0.png)
+![Component Diagram](diagrams/cmp_level1.png)
 
 Motivation
 
